@@ -1,0 +1,29 @@
+<phpunit
+    bootstrap="Bootstrap.php"
+    colors="true"
+    backupGlobals="false"
+>
+	 <testsuites>
+	    <testsuite name="SON Test Suite">
+	        <directory>./</directory>
+	    </testsuite>
+	 </testsuites>
+	 
+    <filter>
+        <whitelist>
+            <directory suffix=".php">../</directory>
+            <exclude>
+            	<file>../Module.php</file>
+            	<directory>../languageArray</directory>
+            	<directory>../config</directory>
+            	<directory>../tests</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+    <!-- 
+    <logging>
+        <log type="coverage-html" target="../_reports/coverage" title="Modulo Skel" charset="UTF-8"/>
+        <log type="testdox-text" target="../_reports/testdox/executed.txt"/>
+    </logging> 
+    -->
+</phpunit>
