@@ -5,7 +5,6 @@ return array(
         'Application',
         'DoctrineModule',
         'DoctrineORMModule',
-        'DoctrineDataFixtureModule',
         'SONBase'
     ),
 
@@ -16,6 +15,7 @@ return array(
         ),
         'config_glob_paths' => array(
             'config/autoload/{,*.}{global,local}.php',
+            __DIR__.'/test.config.php'
         ),
     ),
 );

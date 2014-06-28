@@ -1,4 +1,5 @@
 <?php
+
 return array(
     'doctrine' => array(
         'connection' => array(
@@ -9,7 +10,7 @@ return array(
                     'port' => '3306',
                     'user' => 'root',
                     'password' => '',
-                    'dbname' => 'sonbase_test',
+                    'dbname' => 'sontask',
                     'driverOptions' => array(
                         PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'UTF8'"
                     )
