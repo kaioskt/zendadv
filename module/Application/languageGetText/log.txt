@@ -1,0 +1,4 @@
+06/26/14 22:32:35: Nenhum arquivo encontrado em:/module/Application/view/layout
+06/26/14 22:32:35: O Poedit não encontrou nenhum arquivo nas pastas pesquisadas.
+06/26/14 22:32:35: Entradas do catálogo provavelmente estão incorretas.
+06/26/14 22:32:35: Erro ao atualizar catálogo. Clique em 'Detalhes>>' para detalhes.
